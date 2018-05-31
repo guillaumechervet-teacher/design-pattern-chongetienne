@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 
 
-namespace Basket
+namespace Basket.Domain
 {
     public class ImperativeProgramming
     {
-        public static int CalculateBasketAmount(IList<BasketLineArticle> basketLineArticles)
+        public int CalculateBasketAmount(IList<BasketLineArticle> basketLineArticles)
         {
             var amountTotal = 0;
             foreach (var basketLineArticle in basketLineArticles) { // Retrive article from database
@@ -33,7 +33,7 @@ namespace Basket
 
             return amountTotal;
         }
-        public static ArticleDatabase GetArticleDatabaseMock(string id)
+        public ArticleDatabase GetArticleDatabaseMock(string id)
         {
             switch (id)
             {

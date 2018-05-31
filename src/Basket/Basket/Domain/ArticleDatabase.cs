@@ -1,5 +1,5 @@
-namespace
-    Basket
+    namespace
+    Basket.Domain
 {
     public
         struct

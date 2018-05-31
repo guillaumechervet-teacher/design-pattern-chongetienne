@@ -1,4 +1,4 @@
-﻿namespace Basket { 
+﻿namespace Basket.Domain { 
     public struct BasketLineArticle { 
         public string Id { get; set; } 
         public int Number { get; set; } 
