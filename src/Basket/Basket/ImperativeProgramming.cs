@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace Basket.Domain
+namespace Basket
 {
     public class ImperativeProgramming
     {

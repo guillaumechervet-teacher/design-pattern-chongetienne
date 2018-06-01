@@ -1,5 +1,5 @@
 ﻿using System;
-using Basket.Domain;
+using Basket;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.IO;
